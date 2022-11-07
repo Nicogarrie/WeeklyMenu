@@ -5,6 +5,12 @@ name = "pypi"
 
 [packages]
 fastapi = {version = "==0.86.0", extras = ["all"]}
+sentry-sdk = {version = "==1.10.1", extras = ["fastapi"]}
+python-dotenv = "==0.21.0"
+mypy = "==0.990"
+black = "==22.10.0"
+flake8 = "==5.0.4"
+isort = "==5.10.1"
 
 [dev-packages]
 
